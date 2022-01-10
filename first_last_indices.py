@@ -24,30 +24,57 @@ The space complexity of the algorithm is equivalent to the recursion stack depth
 We can also implement this iteratively, in which the space complexity is reduced to O(1) because we remove the recursion stacks.
 """
 
+
 class Solution:
     def getRange(self, arr, target):
-        low=0
-        high=len(arr)-1
-        pass
+        low = 0
+        high = len(arr) - 1
+        first = self.binarySearch(arr, low, high, target, True)
+        last = self.binarySearch(arr, low, high, target, False)
+        return [first, last]
 
     def binarySearch(self, arr, low, high, target, findLowest):
-        if (high >= low):
-            mid = low + (high-low)/2
+        if high >= low:
+            mid = low + (high - low) // 2
             if findLowest:
-                if (mid == 0 or target > arr[mid-1]) and arr[mid] == target:
+                if (mid == 0 or target > arr[mid - 1]) and arr[mid] == target:
                     return mid
                 elif target > arr[mid]:
-                    return self.binarySearch(arr, mid+1, high,target,findLowest)
+                    return self.binarySearch(arr, mid + 1, high, target, findLowest)
                 else:
-                    return self.binarySearch(arr, low, mid-1, target, findLowest)
+                    return self.binarySearch(arr, low, mid - 1, target, findLowest)
             else:
-                if (mid == len(arr)-1 or target < arr[mid+1]) and arr[mid] == target:
+                if (mid == len(arr) - 1 or target < arr[mid + 1]) and arr[mid] == target:
                     return mid
                 elif target < arr[mid]:
-                    return self.binarySearch(arr, low, mid-1, target, findLowest)
+                    return self.binarySearch(arr, low, mid - 1, target, findLowest)
                 else:
-                    return self.binarySearch(arr, mid+1, high, target, findLowest)
+                    return self.binarySearch(arr, mid + 1, high, target, findLowest)
         return -1
 
     def binarySearchIterative(self, arr, low, high, target, findLowest):
-        pass
+        while high >= low:
+            mid = low + (high - low) // 2
+            if findLowest:
+                if (mid == 0 or target > arr[mid - 1]) and arr[mid] == target:
+                    return mid
+                elif target > arr[mid]:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+            else:
+                if (mid == len(arr) - 1 or target < arr[mid + 1]) and arr[mid] == target:
+                    return mid
+                elif target < arr[mid]:
+                    high = mid - 1
+                else:
+                    low = mid + 1
+        return -1
+
+
+# Test program
+#arr = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8]
+arr = [8]
+x = 2
+print(Solution().getRange(arr, x))
+# [1, 4]
