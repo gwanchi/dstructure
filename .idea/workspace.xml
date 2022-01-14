@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Adding more case case examples.">
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Finished algorithm for first last indices.">
+      <change afterPath="$PROJECT_DIR$/reverse_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_last_indices.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_last_indices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1641388962933" duration="892000" />
       <workItem from="1641736888554" duration="3567000" />
       <workItem from="1641740513169" duration="9868000" />
-      <workItem from="1641831883835" duration="3373000" />
+      <workItem from="1641831883835" duration="17819000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641739770529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished algorithm for first last indices.">
+      <created>1641835634243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641835634243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,16 +118,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="No change" />
     <MESSAGE value="Adding more case case examples." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more case case examples." />
+    <MESSAGE value="Finished algorithm for first last indices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished algorithm for first last indices." />
   </component>
   <component name="WindowStateProjectService">
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="556" y="234" key="Vcs.Push.Dialog.v2" timestamp="1641739793462">
+    <state x="1017" y="267" key="Vcs.Push.Dialog.v2" timestamp="1641835639639">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
+    <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1641835639639" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1641739793462" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
