@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added symmetric tree problem">
-      <change afterPath="$PROJECT_DIR$/paranthesis_pair_count.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added parenthesis pair count algorithm">
+      <change afterPath="$PROJECT_DIR$/traverse_stations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <workItem from="1641388962933" duration="892000" />
       <workItem from="1641736888554" duration="3567000" />
       <workItem from="1641740513169" duration="9868000" />
-      <workItem from="1641831883835" duration="29024000" />
+      <workItem from="1641831883835" duration="37084000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642602204258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added parenthesis pair count algorithm">
+      <created>1642606503804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642606503804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,18 +142,19 @@
     <MESSAGE value="Finished algorithm for first last indices." />
     <MESSAGE value="Added code for reversing a linked list." />
     <MESSAGE value="Added symmetric tree problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added symmetric tree problem" />
+    <MESSAGE value="Added parenthesis pair count algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added parenthesis pair count algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="2950" y="351" key="Vcs.Push.Dialog.v2" timestamp="1642602214055">
+    <state x="2950" y="351" key="Vcs.Push.Dialog.v2" timestamp="1642606506198">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642169606461" />
-    <state x="2950" y="351" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1642602214055" />
+    <state x="2950" y="351" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1642606506198" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1641739793462" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
