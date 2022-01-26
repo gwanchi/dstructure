@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added area of the largest rectangle in the histogram">
+      <change afterPath="$PROJECT_DIR$/maximum_subarray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peak_finding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverse_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree_depth_first_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/largest_rectangle_histogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/largest_rectangle_histogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/longest_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/longest_substring.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,8 @@
       <workItem from="1641388962933" duration="892000" />
       <workItem from="1641736888554" duration="3567000" />
       <workItem from="1641740513169" duration="9868000" />
-      <workItem from="1641831883835" duration="75487000" />
+      <workItem from="1641831883835" duration="77510000" />
+      <workItem from="1643141572876" duration="9158000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -131,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642954463556</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added area of the largest rectangle in the histogram">
+      <created>1643123666770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643123666770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,11 +178,11 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="1017" y="267" key="Vcs.Push.Dialog.v2" timestamp="1642954465292">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="2419" y="243" key="Vcs.Push.Dialog.v2" timestamp="1643123668688">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642954465292" />
-    <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1642760066635" />
+    <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1641739793462" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
