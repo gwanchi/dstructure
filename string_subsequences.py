@@ -11,3 +11,6 @@ def getSubsequences(str):
             rec(str, i+1, subsequence)
     rec(str, 0, "")
     return subsequences
+
+string = "abcd"
+print(getSubsequences(string))
