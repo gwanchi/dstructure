@@ -1,6 +1,8 @@
 """
 Given two linked lists list1 and list2 that represent two positive integers, create a function that returns the linked list that represents their sum
 """
+
+
 def addTwoLinkedLists(list1, list2):
     output = LinkedList()
     ptr1 = list1.head
