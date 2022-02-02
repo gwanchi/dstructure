@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added ways to decode.">
-      <change afterPath="$PROJECT_DIR$/array_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_tree_remove_node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edit_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_common_subsequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_common_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_consecutive_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ways_to_decode.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Adding longest common substring.">
+      <change afterPath="$PROJECT_DIR$/insert_interval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merge_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallest_number_after_remove_kdigits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nextsmsv2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -87,7 +84,7 @@
       <workItem from="1641740513169" duration="9868000" />
       <workItem from="1641831883835" duration="77510000" />
       <workItem from="1643141572876" duration="50132000" />
-      <workItem from="1643476710147" duration="41809000" />
+      <workItem from="1643476710147" duration="53636000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -201,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643698681661</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding longest common substring.">
+      <created>1643732606611</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643732606611</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,24 +240,29 @@
     <MESSAGE value="Added string subsequences problem" />
     <MESSAGE value="Started working on climb stairs ways." />
     <MESSAGE value="Added ways to decode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ways to decode." />
+    <MESSAGE value="Adding longest common substring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding longest common substring." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="149" key="DiffContextDialog" timestamp="1643558138067">
+    <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
-    <state x="0" y="149" key="DiffContextDialog/0.0.3840.1036@0.0.3840.1036" timestamp="1643558138067" />
+    <state x="0" y="45" key="DiffContextDialog/0.0.3840.1036@0.0.3840.1036" timestamp="1643732777998" />
+    <state x="744" y="271" key="FileChooserDialogImpl" timestamp="1643736091241">
+      <screen x="0" y="0" width="3840" height="1036" />
+    </state>
+    <state x="744" y="271" key="FileChooserDialogImpl/0.0.3840.1036@0.0.3840.1036" timestamp="1643736091241" />
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="458" y="258" key="Vcs.Push.Dialog.v2" timestamp="1643698687694">
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643732780544">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642954465292" />
     <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
-    <state x="458" y="258" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643698687694" />
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643732780544" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
