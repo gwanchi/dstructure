@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Adding longest common substring.">
-      <change afterPath="$PROJECT_DIR$/insert_interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knapsack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maximum_path_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallest_number_after_remove_kdigits.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Working on knapsack problem.">
+      <change afterPath="$PROJECT_DIR$/coin_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shortest_palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/knapsack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1641740513169" duration="9868000" />
       <workItem from="1641831883835" duration="77510000" />
       <workItem from="1643141572876" duration="50132000" />
-      <workItem from="1643476710147" duration="53636000" />
+      <workItem from="1643476710147" duration="60845000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643732606611</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Working on knapsack problem.">
+      <created>1643820134108</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643820134108</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +246,8 @@
     <MESSAGE value="Started working on climb stairs ways." />
     <MESSAGE value="Added ways to decode." />
     <MESSAGE value="Adding longest common substring." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding longest common substring." />
+    <MESSAGE value="Working on knapsack problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on knapsack problem." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
@@ -256,13 +262,17 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643732780544">
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643820138292">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642954465292" />
     <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643732780544" />
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643820138292" />
+    <state x="1107" y="16" width="636" height="722" key="find.popup" timestamp="1643875735361">
+      <screen x="0" y="0" width="3840" height="1036" />
+    </state>
+    <state x="1107" y="16" width="636" height="722" key="find.popup/0.0.3840.1036@0.0.3840.1036" timestamp="1643875735361" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
