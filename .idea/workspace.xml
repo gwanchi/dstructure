@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Implemented a coin change problem.">
-      <change afterPath="$PROJECT_DIR$/n_queens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word_ladder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word_search.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Implemented a word ladder problem.">
+      <change afterPath="$PROJECT_DIR$/longest_increasing_subsequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
       <workItem from="1641740513169" duration="9868000" />
       <workItem from="1641831883835" duration="77510000" />
       <workItem from="1643141572876" duration="50132000" />
-      <workItem from="1643476710147" duration="74388000" />
+      <workItem from="1643476710147" duration="77567000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643877673481</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implemented a word ladder problem.">
+      <created>1643900625253</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1643900625253</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +260,8 @@
     <MESSAGE value="Adding longest common substring." />
     <MESSAGE value="Working on knapsack problem." />
     <MESSAGE value="Implemented a coin change problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a coin change problem." />
+    <MESSAGE value="Implemented a word ladder problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a word ladder problem." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
@@ -270,13 +276,13 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643877676867">
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643900627440">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642954465292" />
     <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643877676867" />
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643900627440" />
     <state x="1107" y="16" width="636" height="722" key="find.popup" timestamp="1643875735361">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
