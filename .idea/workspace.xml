@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Implemented a word ladder problem.">
-      <change afterPath="$PROJECT_DIR$/longest_increasing_subsequence.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Implemented a longest increasing subsequence.">
+      <change afterPath="$PROJECT_DIR$/magic_square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shove_change.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -80,7 +81,9 @@
       <workItem from="1641740513169" duration="9868000" />
       <workItem from="1641831883835" duration="77510000" />
       <workItem from="1643141572876" duration="50132000" />
-      <workItem from="1643476710147" duration="77567000" />
+      <workItem from="1643476710147" duration="79602000" />
+      <workItem from="1644443102905" duration="594000" />
+      <workItem from="1644474345916" duration="4964000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643900625253</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implemented a longest increasing subsequence.">
+      <created>1643961631117</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1643961631117</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,31 +271,34 @@
     <MESSAGE value="Working on knapsack problem." />
     <MESSAGE value="Implemented a coin change problem." />
     <MESSAGE value="Implemented a word ladder problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a word ladder problem." />
+    <MESSAGE value="Implemented a longest increasing subsequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a longest increasing subsequence." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="0" y="45" key="DiffContextDialog/0.0.3840.1036@0.0.3840.1036" timestamp="1643732777998" />
-    <state x="744" y="271" key="FileChooserDialogImpl" timestamp="1643736091241">
-      <screen x="0" y="0" width="3840" height="1036" />
+    <state x="651" y="198" width="432" height="497" key="FileChooserDialogImpl" timestamp="1644474379219">
+      <screen x="0" y="0" width="1920" height="1036" />
     </state>
+    <state x="651" y="198" width="432" height="497" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644474379219" />
     <state x="744" y="271" key="FileChooserDialogImpl/0.0.3840.1036@0.0.3840.1036" timestamp="1643736091241" />
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643900627440">
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2" timestamp="1643961632515">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="1017" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1642954465292" />
     <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
-    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643900627440" />
-    <state x="1107" y="16" width="636" height="722" key="find.popup" timestamp="1643875735361">
-      <screen x="0" y="0" width="3840" height="1036" />
+    <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643961632515" />
+    <state x="597" y="163" width="930" height="722" key="find.popup" timestamp="1644475956892">
+      <screen x="0" y="0" width="1920" height="1036" />
     </state>
+    <state x="597" y="163" width="930" height="722" key="find.popup/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644475956892" />
     <state x="1107" y="16" width="636" height="722" key="find.popup/0.0.3840.1036@0.0.3840.1036" timestamp="1643875735361" />
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1641739564934">
       <screen x="0" y="0" width="1920" height="1036" />
