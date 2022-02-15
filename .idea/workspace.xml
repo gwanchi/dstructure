@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added a shovel change code.">
-      <change afterPath="$PROJECT_DIR$/sum_prices.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Working on lowest sum problem, building an algorithm.">
+      <change afterPath="$PROJECT_DIR$/is_string_permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unique_character_set.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,44 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager" selected="Python tests.Unittests in unique_character_set.py">
+    <configuration name="Unittests for unique_character_set.TestUniqueChars.test_unique_chars" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="dstructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unique_character_set.TestUniqueChars.test_unique_chars&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unique_character_set.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="dstructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unique_character_set.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in unique_character_set.py" />
+        <item itemvalue="Python tests.Unittests for unique_character_set.TestUniqueChars.test_unique_chars" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,7 +120,7 @@
       <workItem from="1643141572876" duration="50132000" />
       <workItem from="1643476710147" duration="79602000" />
       <workItem from="1644443102905" duration="594000" />
-      <workItem from="1644474345916" duration="23091000" />
+      <workItem from="1644474345916" duration="28987000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -237,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644783784207</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Working on lowest sum problem, building an algorithm.">
+      <created>1644853322470</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644853322470</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +324,8 @@
     <MESSAGE value="Implemented a word ladder problem." />
     <MESSAGE value="Implemented a longest increasing subsequence." />
     <MESSAGE value="Added a shovel change code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a shovel change code." />
+    <MESSAGE value="Working on lowest sum problem, building an algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on lowest sum problem, building an algorithm." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
@@ -290,14 +337,46 @@
     </state>
     <state x="651" y="198" width="432" height="497" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644474379219" />
     <state x="744" y="271" key="FileChooserDialogImpl/0.0.3840.1036@0.0.3840.1036" timestamp="1643736091241" />
+    <state width="1872" height="336" key="GridCell.Tab.0.bottom" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.0.center" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.0.left" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.0.right" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.1.bottom" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.1.center" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.1.left" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="1872" height="336" key="GridCell.Tab.1.right" timestamp="1644942135270">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="336" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="611" y="256" key="Vcs.Push.Dialog.v2" timestamp="1644783789682">
+    <state x="611" y="256" key="Vcs.Push.Dialog.v2" timestamp="1644853323981">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="611" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644783789682" />
+    <state x="611" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644853323981" />
     <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
     <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643961632515" />
@@ -310,5 +389,9 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="686" y="404" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1641739564934" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dstructure$Unittests_for_unique_character_set_TestUniqueChars_test_unique_chars.coverage" NAME="Unittests for unique_character_set.TestUniqueChars.test_unique_chars Coverage Results" MODIFIED="1644941367137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dstructure$Unittests_in_unique_character_set_py.coverage" NAME="Unittests in unique_character_set.py Coverage Results" MODIFIED="1644942118651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
