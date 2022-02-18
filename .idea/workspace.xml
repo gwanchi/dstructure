@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Working on lowest sum problem, building an algorithm.">
-      <change afterPath="$PROJECT_DIR$/is_string_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unique_character_set.py" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added unique character set problem.">
+      <change afterPath="$PROJECT_DIR$/maximum_rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_challenge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soci_challenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -120,7 +124,7 @@
       <workItem from="1643141572876" duration="50132000" />
       <workItem from="1643476710147" duration="79602000" />
       <workItem from="1644443102905" duration="594000" />
-      <workItem from="1644474345916" duration="28987000" />
+      <workItem from="1644474345916" duration="36346000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -283,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644853322470</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added unique character set problem.">
+      <created>1644954729287</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644954729287</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +336,8 @@
     <MESSAGE value="Implemented a longest increasing subsequence." />
     <MESSAGE value="Added a shovel change code." />
     <MESSAGE value="Working on lowest sum problem, building an algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on lowest sum problem, building an algorithm." />
+    <MESSAGE value="Added unique character set problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unique character set problem." />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
@@ -373,11 +385,11 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="611" y="256" key="Vcs.Push.Dialog.v2" timestamp="1644853323981">
+    <state x="450" y="156" key="Vcs.Push.Dialog.v2" timestamp="1644954734673">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="611" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644853323981" />
-    <state x="2419" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643123668688" />
+    <state x="450" y="156" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644954734673" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
     <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643961632515" />
     <state x="597" y="163" width="930" height="722" key="find.popup" timestamp="1644475956892">
