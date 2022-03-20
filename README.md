@@ -1,5 +1,20 @@
 # dstructure
 
+General Concepts:
+1. Strings
+2. Hash Maps
+3. Linked Lists
+4. Stacks & Queues
+5. Trees
+6. Breadth-first Search
+7. Depth-first Search
+8. Backtracking
+9. Greedy Algorithms
+10. Memoization
+11. Dynamic Programming
+12. Advanced Topics
+
+
 Linear
 1. Arrays
 2. Stacks

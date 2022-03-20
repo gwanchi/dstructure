@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Added unique character set problem.">
-      <change afterPath="$PROJECT_DIR$/maximum_rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop_challenge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soci_challenge.html" afterDir="false" />
+    <list default="true" id="ca0ec56a-2bb1-4f3f-a941-cda3252a711f" name="Default Changelist" comment="Created maximum rating.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +51,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../nextsmsv2" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -124,7 +125,12 @@
       <workItem from="1643141572876" duration="50132000" />
       <workItem from="1643476710147" duration="79602000" />
       <workItem from="1644443102905" duration="594000" />
-      <workItem from="1644474345916" duration="36346000" />
+      <workItem from="1644474345916" duration="38904000" />
+      <workItem from="1645529783810" duration="1246000" />
+      <workItem from="1646113816554" duration="501000" />
+      <workItem from="1646416748474" duration="4454000" />
+      <workItem from="1647167610547" duration="673000" />
+      <workItem from="1647326371620" duration="2872000" />
     </task>
     <task id="LOCAL-00001" summary="No change">
       <created>1638266692528</created>
@@ -294,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644954729287</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Created maximum rating.">
+      <created>1645171625311</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1645171625311</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,17 +350,22 @@
     <MESSAGE value="Added a shovel change code." />
     <MESSAGE value="Working on lowest sum problem, building an algorithm." />
     <MESSAGE value="Added unique character set problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unique character set problem." />
+    <MESSAGE value="Created maximum rating." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created maximum rating." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646796225386">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="556" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1646796225386" />
     <state x="0" y="45" key="DiffContextDialog" timestamp="1643732777998">
       <screen x="0" y="0" width="3840" height="1036" />
     </state>
     <state x="0" y="45" key="DiffContextDialog/0.0.3840.1036@0.0.3840.1036" timestamp="1643732777998" />
-    <state x="651" y="198" width="432" height="497" key="FileChooserDialogImpl" timestamp="1644474379219">
+    <state x="651" y="198" width="439" height="497" key="FileChooserDialogImpl" timestamp="1646052074987">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="651" y="198" width="432" height="497" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644474379219" />
+    <state x="651" y="198" width="439" height="497" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1646052074987" />
     <state x="744" y="271" key="FileChooserDialogImpl/0.0.3840.1036@0.0.3840.1036" timestamp="1643736091241" />
     <state width="1872" height="336" key="GridCell.Tab.0.bottom" timestamp="1644942135270">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -381,17 +399,29 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1872" height="336" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644942135270" />
+    <state width="292" height="515" key="HiddenNamespacesPopup" timestamp="1646796298591">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="292" height="515" key="HiddenNamespacesPopup/0.0.1920.1036@0.0.1920.1036" timestamp="1646796298591" />
     <state x="435" y="148" key="SettingsEditor" timestamp="1641739918038">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="435" y="148" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1641739918038" />
-    <state x="450" y="156" key="Vcs.Push.Dialog.v2" timestamp="1644954734673">
+    <state x="611" y="256" key="Vcs.Push.Dialog.v2" timestamp="1645171626894">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="611" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1644853323981" />
+    <state x="611" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@0.0.1920.1036" timestamp="1645171626894" />
     <state x="450" y="156" key="Vcs.Push.Dialog.v2/0.0.1920.1036/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644954734673" />
     <state x="556" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1643402947928" />
     <state x="497" y="214" key="Vcs.Push.Dialog.v2/0.0.3840.1036@0.0.3840.1036" timestamp="1643961632515" />
+    <state x="638" y="316" width="524" height="295" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1646796266685">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="638" y="316" width="524" height="295" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1036@0.0.1920.1036" timestamp="1646796266685" />
+    <state x="380" y="218" width="927" height="638" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1646796587531">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="380" y="218" width="927" height="638" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1646796587531" />
     <state x="597" y="163" width="930" height="722" key="find.popup" timestamp="1644475956892">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
